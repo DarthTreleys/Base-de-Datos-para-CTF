@@ -1,0 +1,15 @@
+-- Crear la base de datos
+CREATE DATABASE SCPusuarios;
+
+-- Usar la base de datos
+USE SCPusuarios;
+
+-- Crear la tabla usuarios
+CREATE TABLE usuarios (
+    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    apellido VARCHAR(255) NOT NULL,
+    rango VARCHAR(100) NOT NULL
+);
+
+-- Aun hay que pensar si se añadiran más tablas
